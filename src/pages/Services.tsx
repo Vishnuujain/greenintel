@@ -58,7 +58,7 @@ const Services = () => {
       {
         icon: <Settings size={40} className="text-greenintel-primary" />,
         title: "Engineering and Project Management",
-        description: "Comprehensive engineering and project management services for solar installations across diverse applications. From initial planning to commissioning, we deliver end-to-end solutions for projects of all sizes.",
+        description: "From initial planning to commissioning, we deliver end-to-end solutions for projects of all sizes.",
         features: ["Installation on rooftop", "Installation on Agriculture field", "Battery storage solar installation"]
       }
     ],
