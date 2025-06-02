@@ -56,16 +56,10 @@ const Services = () => {
     ],
     installation: [
       {
-        icon: <Sun size={40} className="text-greenintel-primary" />,
-        title: "Rooftop Solar",
-        description: "Full turnkey residential and commercial rooftop solar installations.",
-        features: ["Residential systems", "Commercial systems", "Grid-tied solutions", "Battery storage options"]
-      },
-      {
-        icon: <Award size={40} className="text-greenintel-primary" />,
-        title: "Solar EPC",
-        description: "End-to-end execution from planning to commissioning for solar projects of all sizes.",
-        features: ["Engineering", "Procurement", "Construction", "Project management"]
+        icon: <Settings size={40} className="text-greenintel-primary" />,
+        title: "Engineering and Project Management",
+        description: "Comprehensive engineering and project management services for solar installations across diverse applications. From initial planning to commissioning, we deliver end-to-end solutions for projects of all sizes.",
+        features: ["Installation on rooftop", "Installation on Agriculture field", "Battery storage solar installation"]
       }
     ],
     "ai-solutions": [
