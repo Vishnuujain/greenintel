@@ -65,7 +65,7 @@ const Services = () => {
     "ai-solutions": [
       {
         icon: <Server size={40} className="text-greenintel-primary" />,
-        title: "Chatbots & Voice Agents",
+        title: "Chatbots and Voice Agents",
         description: "Industry-specific AI assistants to streamline customer service and operations.",
         features: ["24/7 customer support", "Technical troubleshooting", "Energy usage optimization", "Personalized recommendations"]
       },
