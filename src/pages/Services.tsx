@@ -55,17 +55,18 @@ const Services = () => {
       }
     ],
     installation: [
-      {
+       {
         icon: <Settings size={40} className="text-greenintel-primary" />,
         title: "Engineering and Project Management",
         description: "From initial planning to commissioning, we deliver end-to-end solutions for projects of all sizes.",
         features: ["Installation on rooftop", "Installation on Agriculture field", "Battery storage solar installation"]
-      }
+      }
+
     ],
     "ai-solutions": [
       {
         icon: <Server size={40} className="text-greenintel-primary" />,
-        title: "Chatbots and Voice Agents",
+        title: "Chatbots & Voice Agents",
         description: "Industry-specific AI assistants to streamline customer service and operations.",
         features: ["24/7 customer support", "Technical troubleshooting", "Energy usage optimization", "Personalized recommendations"]
       },
@@ -136,7 +137,8 @@ const Services = () => {
 
                 <div className="text-center mt-12">
                   <Button className="btn-primary">
-                    Request {serviceCategories.find(c => c.id === category)?.label} Services
+                    <Link to="/contact">Request {serviceCategories.find(c => c.id === category)?.label} Services</Link>
+                    
                   </Button>
                 </div>
               </TabsContent>
